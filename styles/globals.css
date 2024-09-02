@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles/globals.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5em 0;
+  }
+  
+  input, select, button {
+    margin: 0.5em 0;
+    padding: 0.5em;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  .dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard h1 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .dashboard ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dashboard li {
+    margin-bottom: 20px;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .loading {
+    font-style: italic;
+  }
+  .login {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .login h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .login form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login label {
+    margin-bottom: 10px;
+  }
+  
+  .login input {
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1em;
+  }
+  
+  .login button {
+    padding: 10px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login button:hover {
+    background-color: #005bb5;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 10px;
+  }
+    
